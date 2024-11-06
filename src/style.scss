@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.cartgr{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.cartdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.modaldiv{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
